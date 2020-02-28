@@ -1,0 +1,77 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+		<title>Простое раздвигающееся вертикальное меню</title>
+		<link rel="stylesheet" href="menu.css" type="text/css">
+    
+    <script language="JavaScript">
+      function test(page){
+        switch (page){
+          case 'main':  parent.mainFrame.location.href = "main.html"; 
+                        parent.postFrame.location.href = "none.html";
+												parent.codFrame.location.href = "none.html";
+                        break;
+          case 'hist':  parent.mainFrame.location.href = "hictory.html"; 
+                        parent.postFrame.location.href = "none.html"; 
+												parent.codFrame.location.href = "none.html";
+                        break;
+												
+          case 'cpu':   parent.mainFrame.location.href = "cpu.html";
+												parent.codFrame.location.href = "cod.html";
+                        parent.postFrame.location.href = "post.html";
+                        break;
+												
+          case 'port':  parent.mainFrame.location.href = "port.html"; 
+												parent.codFrame.location.href = "cod.html";
+                        parent.postFrame.location.href = "post.html"; 
+                        break;
+					case 'adc':  	parent.mainFrame.location.href = "adc.html";
+												parent.codFrame.location.href = "cod.html"; 
+                        parent.postFrame.location.href = "post.html"; 
+                        break;
+					case 'can':  	parent.mainFrame.location.href = "can.html";
+												parent.codFrame.location.href = "cod.html"; 
+                        parent.postFrame.location.href = "post.html"; 
+                        break;
+					case 'uart':  parent.mainFrame.location.href = "uart.html";
+												parent.codFrame.location.href = "cod.html"; 
+                        parent.postFrame.location.href = "post.html"; 
+                        break;
+					case 'tim':   parent.mainFrame.location.href = "tim.html";
+												parent.codFrame.location.href = "cod.html"; 
+                        parent.postFrame.location.href = "post.html"; 
+                        break;
+					case 'ssp':   parent.mainFrame.location.href = "ssp.html";
+												parent.codFrame.location.href = "cod.html"; 
+                        parent.postFrame.location.href = "post.html"; 
+                        break;
+					
+        }
+      }
+    </script>
+    
+	</head>
+	<body>
+		<div class="container">
+			<ul id="nav">
+				<li><a href="#" onclick="test('main')">Главная</a></li>
+				<li><a href="#" class="sub" tabindex="1">Процессор</a>
+					<ul>
+						<li><a href="#" onclick="test('cpu')">CPU</a></li>
+					</ul>
+				</li>
+				<li><a href="#" class="sub" tabindex="1">Периферия</a>
+					<ul>
+						<li><a href="#" onclick="test('port')">Port</a></li>
+						<li><a href="#" onclick="test('adc')">ADC</a></li>
+						<li><a href="#" onclick="test('can')">CAN</a></li>
+						<li><a href="#" onclick="test('uart')">UART</a></li>
+						<li><a href="#" onclick="test('tim')">TIMER</a></li>
+						<li><a href="#" onclick="test('ssp')">SSP</a></li>
+					</ul>
+				</li>
+				<li><a href="#" onclick="test('hist')">История</a></li>
+			</ul>
+		</div>
+	</body>
+</html>

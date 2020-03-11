@@ -338,7 +338,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\Generic;..\User</IncludePath>
+              <IncludePath>C:\git\ARM\Files</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>

@@ -329,9 +329,9 @@ s\CMSIS\CM3\DeviceSupport\MDR32F9Qx\inc -IC:\Keil_v5\ARM\CMSIS\Include --predef
 ARM Macro Assembler    Page 6 
 
 
-ine="__EVAL SETA 1" --predefine="__UVISION_VERSION SETA 529" --predefine="_RTE_
- SETA 1" --predefine="USE_MDR32F9Q2_Rev1 SETA 1" --list=.\listings\startup_mdr3
-2f9qx.lst RTE\Device\MDR1986BE92\startup_MDR32F9Qx.s
+ine="__UVISION_VERSION SETA 529" --predefine="_RTE_ SETA 1" --predefine="USE_MD
+R32F9Q2_Rev1 SETA 1" --list=.\listings\startup_mdr32f9qx.lst RTE\Device\MDR1986
+BE92\startup_MDR32F9Qx.s
 
 
 
@@ -841,4 +841,4 @@ Symbol: __use_two_region_memory
       None
 Comment: __use_two_region_memory unused
 3 symbols
-388 symbols in table
+387 symbols in table

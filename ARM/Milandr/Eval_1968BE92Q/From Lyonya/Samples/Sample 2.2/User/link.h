@@ -12,7 +12,7 @@
 #define LINK_H
 
 // Подключение стандартных периферийных библиотек
-#include "1986VE9x.h"
+#include "MDR32Fx.h"
 
 // Подключение библиотеки для работы с ОСРВ
 #include <rtx_os.h>
@@ -21,6 +21,6 @@
 #include "rtos.h"
 #include "led.h"
 #include "scrn.h"
-#include "lcd.h"
+#include "C:\Keil_v5\ARM\Packs\Keil\MDR1986xx\Example_Projects\MDR1986VE91_Eval\inc\lcd.h"
 
 #endif

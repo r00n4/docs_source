@@ -1,0 +1,7 @@
+
+Copy all files in folder share\extensions to Inkscape install folder share\extensions
+
+
+
+
+

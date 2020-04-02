@@ -1,0 +1,27 @@
+正常情况下控制板已经烧好固件，用户连接设备后按照软件使用说明即可以正常使用。
+
+特殊情况下如用户需要自行烧录软件固件：
+1.请将控制板链接至电脑，关闭【LaserEngraver 3.0】程序，
+2.使用固件烧录软件XLoader程序上传固件。请选择固件文件【LaserEngraver_Firmware_V1.1*.hex】
+3.选择控制板芯片【Uno(ATmega328)】
+4.选择控制板所在【COM*】端口
+5.选择Baudrate控制板为【115200】
+6.点击上传，控制板【T,R】灯持续闪烁
+7.提示【30666 bytes uploaded】上传成功
+
+Under normal circumstances, the control board has already burned the firmware. After connecting the device, the user can use it according to the software instructions.
+
+In special cases, if the user needs to burn the software firmware by himself:
+1.Link the control board to your computer and close the [LaserEngraver 3.0] program.
+2.Use the firmware burning software XLoader program to upload the firmware. Please select the firmware file [LaserEngraver_Firmware_V1.1*.hex]
+3.Select the control board chip [Uno (ATmega328)]
+4.Select the [COM*] port where the control board is located
+5.Select Baudrate control board for [115200]
+6.Click Upload, the control board [T, R] lights continue to flash
+7.Tips [30666 bytes uploaded] uploaded successfully
+
+
+
+
+
+
